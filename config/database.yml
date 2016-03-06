@@ -50,5 +50,10 @@ test:
 production:
   <<: *default
   database: wallet_production
-  username: wallet
-  password: <%= ENV['WALLET_DATABASE_PASSWORD'] %>
+  username: root
+  password: 0r^th0t@
+~
+~
+~
+"config/database.yml" 54L, 1617C                                                                                                                                              1,1           All
+
