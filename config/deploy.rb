@@ -12,7 +12,7 @@ set :rbenv_ruby, '2.2.4'
 
 # Don't change these unless you know what you're doing
 set :pty,             true
-#set :use_sudo,        false
+set :use_sudo,        false
 set :stage,           :production
 set :deploy_via,      :remote_cache
 set :deploy_to,       "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
