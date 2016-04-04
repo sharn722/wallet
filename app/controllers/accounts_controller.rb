@@ -1,5 +1,9 @@
 class AccountsController < ApplicationController
+  USERS = { "lifo" => "world" }
+  
   before_action :set_account, only: [:show, :edit, :update, :destroy]
+
+  before_action :authenticate
 
   # GET /accounts
   # GET /accounts.json
@@ -63,6 +67,13 @@ class AccountsController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
+
+    def authenticate
+      authenticate_or_request_with_http_digest do |username|
+        USERS[username]
+      end
+    end
+
     def set_account
       @account = Account.find(params[:id])
     end
