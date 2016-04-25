@@ -85,8 +85,8 @@ namespace :deploy do
     `git branch` =~ /^\* ([^\s]+)/ or abort "Couldn't understand the output of `git branch`."
     original_branch = $1
     begin
-      puts "Checking out #{branch}"
-      system("git checkout #{branch}") or raise "Couldn't check out #{branch}."
+      puts "Checking out #{fetch(:branch)}"
+      system("git checkout #{fetch(:branch)}") or raise "Couldn't check out #{fetch(:branch)}."
       puts "Checking specs..."
       system("rake spec") or raise "One or more specs are failing. Come back when they all pass."
       @failed = false
