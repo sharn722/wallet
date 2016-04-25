@@ -57,3 +57,5 @@ end
 
 gem 'puma'
 
+gem "rspec-rails", :group => [:development, :test]
+
