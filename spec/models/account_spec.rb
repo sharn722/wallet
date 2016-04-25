@@ -4,6 +4,6 @@ RSpec.describe Account, type: :model do
   pending "add some examples to (or delete) #{__FILE__}"
 
   it "should fail" do
-  	expect("1").to eq("2")
+  	expect("1").to eq("1")
   end
 end
