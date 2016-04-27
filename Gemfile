@@ -60,3 +60,4 @@ gem 'puma'
 
 gem "rspec-rails", :group => [:development, :test]
 
+gem 'dotenv-rails', :groups => [:development, :test]

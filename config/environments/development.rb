@@ -24,8 +24,8 @@ Rails.application.configure do
     :port => 465,
     :domain => 'wallet.chamalab.com',
     :authentication => 'plain',
-    :user_name => 'sharn722@gmail.com',
-    :password => ''
+    :user_name => ENV['EMAIL_ADD'],
+    :password => ENV['EMAIL_PASS']
   }
 
   # Print deprecation notices to the Rails logger.
