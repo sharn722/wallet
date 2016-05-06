@@ -62,6 +62,11 @@ namespace :deploy do
     end
   end
 
+  desc "Send email notification"
+  task :send_notification do
+    DeployMailer.deploy_email.deliver_now
+  end
+
   desc 'Initial Deploy'
   task :initial do
     on roles(:app) do
@@ -107,6 +112,7 @@ namespace :deploy do
 end
 
 before "deploy:publishing", "deploy:check_specs"
+after "deploy:log_revision", "deploy:send_notification"
 
 # ps aux | grep puma    # Get puma pid
 # kill -s SIGUSR2 pid   # Restart puma
