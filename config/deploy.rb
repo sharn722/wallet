@@ -1,3 +1,5 @@
+require "deploy_mailer"
+
 # Change these
 server '104.131.2.210', port: 77, roles: [:web, :app, :db], primary: true
 
