@@ -66,7 +66,7 @@ namespace :deploy do
   task :send_notification do
     run_locally do
       with rails_env: :development do
-        DeployMailer.deploy_email.deliver_now
+        rake 'deploy:notify'
       end
     end
   end
