@@ -64,11 +64,12 @@ namespace :deploy do
 
   desc "Send email notification"
   task :send_notification do
-    run_locally do
-      with rails_env: :development do
-        rake 'deploy:notify'
-      end
-    end
+    # run_locally do
+    #   with rails_env: :development do
+    #     rake 'deploy:notify'
+    #   end
+    # end
+    system("rake deploy:notify")
   end
 
   desc 'Initial Deploy'
