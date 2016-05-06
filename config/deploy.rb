@@ -1,5 +1,3 @@
-require "deploy_mailer"
-
 # Change these
 server '104.131.2.210', port: 77, roles: [:web, :app, :db], primary: true
 
@@ -66,7 +64,11 @@ namespace :deploy do
 
   desc "Send email notification"
   task :send_notification do
-    DeployMailer.deploy_email.deliver_now
+    run_locally do
+      with rails_env: :development do
+        DeployMailer.deploy_email.deliver_now
+      end
+    end
   end
 
   desc 'Initial Deploy'
