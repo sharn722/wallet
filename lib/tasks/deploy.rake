@@ -3,3 +3,4 @@ namespace :deploy do
   task notify: :environment do
     DeployMailer.deploy_email.deliver_now
   end
+end
