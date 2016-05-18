@@ -3,7 +3,7 @@ class AccountsController < ApplicationController
   
   before_action :set_account, only: [:show, :edit, :update, :destroy]
 
-  before_action :authenticate
+#  before_action :authenticate
 
   # GET /accounts
   # GET /accounts.json

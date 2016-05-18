@@ -6,6 +6,7 @@ set :application,     'wallet'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
+set :branch, 'master'
 
 set :rbenv_type, :user # or :system, depends on your rbenv setup
 set :rbenv_ruby, '2.2.4'
@@ -34,7 +35,7 @@ set :puma_init_active_record, true  # Change to false when not using ActiveRecor
 # set :keep_releases, 5
 
 ## Linked Files & Directories (Default None):
-set :linked_files, %w{config/database.yml config/secrets.yml config/nginx.conf}
+set :linked_files, %w{config/database.yml config/secrets.yml config/nginx.conf .env}
 set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
 namespace :puma do
@@ -61,6 +62,16 @@ namespace :deploy do
     end
   end
 
+  desc "Send email notification"
+  task :send_notification do
+    # run_locally do
+    #   with rails_env: :development do
+    #     rake 'deploy:notify'
+    #   end
+    # end
+    system("rake deploy:notify")
+  end
+
   desc 'Initial Deploy'
   task :initial do
     on roles(:app) do
@@ -76,11 +87,37 @@ namespace :deploy do
     end
   end
 
+  desc "Make sure all specs pass"
+  task :check_specs do
+    if scm.to_sym != :git
+      abort "Sorry, you can only check specs if you're using git as your scm."
+    end
+    `git branch` =~ /^\* ([^\s]+)/ or abort "Couldn't understand the output of `git branch`."
+    original_branch = $1
+    begin
+      puts "Checking out #{fetch(:branch)}"
+      system("git checkout #{fetch(:branch)}") or raise "Couldn't check out #{fetch(:branch)}."
+      puts "Checking specs..."
+      system("rake spec") or raise "One or more specs are failing. Come back when they all pass."
+      @failed = false
+    rescue Exception => e
+      puts e
+      @failed = true
+    ensure
+      puts "Going back to branch #{original_branch}"
+      system("git checkout #{original_branch}") or abort "Sorry, couldn't put you back to your original branch."
+    end
+    abort if @failed
+  end
+
   before :starting,     :check_revision
   after  :finishing,    :compile_assets
   after  :finishing,    :cleanup
   after  :finishing,    :restart
 end
+
+before "deploy:publishing", "deploy:check_specs"
+after "deploy:log_revision", "deploy:send_notification"
 
 # ps aux | grep puma    # Get puma pid
 # kill -s SIGUSR2 pid   # Restart puma
