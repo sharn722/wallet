@@ -2169,3 +2169,11 @@ deploy
 	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/ruby/2.2.0/bin/cap:22:in `<main>'
 /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/rubygems_integration.rb:304:in `block in replace_gem': capistrano is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
 	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/ruby/2.2.0/bin/cap:22:in `<main>'
+-------------------------
+deploy
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/rubygems_integration.rb:304:in `block in replace_gem': capistrano is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/ruby/2.2.0/bin/cap:22:in `<main>'
