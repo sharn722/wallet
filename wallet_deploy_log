@@ -271,3 +271,19 @@ Your branch is up-to-date with 'origin/master'.
 00:30 deploy:log_revision
       01 echo "Branch master (at ca355cd640b960d2965f44ac718b1c1d68bea5df) deployed as release 20160522170205 by deploy" >> /home/deploy/apps/wallet/revisions.log
     ✔ 01 deploy@104.131.2.210 0.012s
+capistrano (3.5.0, 3.4.0)
+capistrano-bundler (1.1.4)
+capistrano-harrow (0.5.1)
+capistrano-rails (1.1.6)
+capistrano-rbenv (2.0.4)
+capistrano3-puma (1.2.1)
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+(Backtrace restricted to imported tasks)
+cap aborted!
+Interrupt: 
+
+Tasks: TOP => rbenv:validate
+(See full trace by running task with --trace)
