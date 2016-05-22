@@ -1,0 +1,273 @@
+Using rake 11.1.2
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.9.0
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.0.0
+Using rack 1.6.4
+Using mime-types-data 3.2016.0221
+Using arel 6.0.3
+Using net-ssh 3.1.1
+Using debug_inspector 0.0.2
+Using byebug 9.0.4
+Using capistrano-harrow 0.5.1
+Using puma 3.4.0
+Using coffee-script-source 1.10.0
+Using execjs 2.7.0
+Using thor 0.19.1
+Using concurrent-ruby 1.0.2
+Using diff-lcs 1.2.5
+Using dotenv 2.1.1
+Using multi_json 1.12.1
+Using mysql2 0.3.21
+Using bundler 1.11.2
+Using rspec-support 3.4.1
+Using sass 3.4.22
+Using tilt 2.0.4
+Using spring 1.7.1
+Using rdoc 4.2.2
+Using tzinfo 1.2.2
+Using nokogiri 1.6.7.2
+Using rack-test 0.6.3
+Using mime-types 3.0
+Using net-scp 1.2.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 3.0.0
+Using sprockets 3.6.0
+Using rspec-core 3.4.4
+Using rspec-expectations 3.4.0
+Using rspec-mocks 3.4.1
+Using sdoc 0.4.1
+Using activesupport 4.2.4
+Using tzinfo-data 1.2016.4
+Using loofah 2.0.3
+Using mail 2.6.4
+Using sshkit 1.10.0
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.6
+Using activemodel 4.2.4
+Using jbuilder 2.4.1
+Using rails-html-sanitizer 1.0.3
+Using airbrussh 1.0.2
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.4
+Using activerecord 4.2.4
+Using capistrano 3.5.0
+Using actionview 4.2.4
+Using capistrano-bundler 1.1.4
+Using capistrano-rbenv 2.0.4
+Using capistrano3-puma 1.2.1
+Using actionpack 4.2.4
+Using capistrano-rails 1.1.6
+Using actionmailer 4.2.4
+Using railties 4.2.4
+Using sprockets-rails 3.0.4
+Using coffee-rails 4.1.1
+Using dotenv-rails 2.1.1
+Using jquery-rails 4.1.1
+Using rspec-rails 3.4.2
+Using rails 4.2.4
+Using sass-rails 5.0.4
+Using web-console 2.3.0
+Using turbolinks 2.5.3
+Bundle complete! 21 Gemfile dependencies, 75 gems now installed.
+Bundled gems are installed into /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems.
+capistrano (3.5.0, 3.4.0)
+capistrano-bundler (1.1.4)
+capistrano-harrow (0.5.1)
+capistrano-rails (1.1.6)
+capistrano-rbenv (2.0.4)
+capistrano3-puma (1.2.1)
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+00:00 git:wrapper
+      01 mkdir -p /tmp/wallet/
+    ✔ 01 deploy@104.131.2.210 0.009s
+      Uploading /tmp/wallet/git-ssh.sh 100.0%
+      02 chmod +rx /tmp/wallet/git-ssh.sh
+    ✔ 02 deploy@104.131.2.210 0.011s
+00:00 git:check
+      01 git ls-remote --heads git@github.com:sharn722/wallet.git
+      01 ca355cd640b960d2965f44ac718b1c1d68bea5df
+      01 	
+      01 refs/heads/master
+      01 
+    ✔ 01 deploy@104.131.2.210 2.046s
+00:02 deploy:check:directories
+      01 mkdir -p /home/deploy/apps/wallet/shared /home/deploy/apps/wallet/releases
+    ✔ 01 deploy@104.131.2.210 0.008s
+00:02 deploy:check:linked_dirs
+      01 mkdir -p /home/deploy/apps/wallet/shared/bin /home/deploy/apps/wallet/shared/log /home/deploy/apps/wallet/shared/tmp/pids /home/deploy/apps/wallet/shared/tmp/cache /home/deploy/apps/wallet/shared/tmp/sockets /home/deploy/apps/wallet/shared/vendor/bundle /home/deploy/apps/wallet/shared/public/system /home/deploy/apps/wallet/shared/public/assets
+    ✔ 01 deploy@104.131.2.210 0.008s
+00:02 deploy:check:make_linked_dirs
+      01 mkdir -p /home/deploy/apps/wallet/shared/config /home/deploy/apps/wallet/shared
+    ✔ 01 deploy@104.131.2.210 0.008s
+00:02 git:clone
+      The repository mirror is at /home/deploy/apps/wallet/repo
+00:02 git:update
+      01 git remote update --prune
+      01 Fetching origin
+      01 
+      01 remote: Counting objects: 24, done.[K
+      01 
+      01 remote: Compressing objects:   5% (1/19)   [K
+      01 remote: Compressing objects:  10% (2/19)   [K
+      01 remote: Compressing objects:  15% (3/19)   [K
+      01 remote: Compressing objects:  21% (4/19)   [K
+      01 remote: Compressing objects:  26% (5/19)   [K
+      01 remote: Compressing objects:  31% (6/19)   [K
+      01 remote: Compressing objects:  36% (7/19)   [K
+      01 remote: Compressing objects:  42% (8/19)   [K
+      01 remote: Compressing objects:  47% (9/19)   [K
+      01 remote: Compressing objects:  52% (10/19)   [K
+      01 remote: Compressing objects:  57% (11/19)   [K
+      01 remote: Compressing objects:  63% (12/19)   [K
+      01 remote: Compressing objects:  68% (13/19)   [K
+      01 remote: Compressing objects:  73% (14/19)   [K
+      01 remote: Compressing objects:  78% (15/19)   [K
+      01 remote: Compressing objects:  84% (16/19)   [K
+      01 remote: Compressing objects:  89% (17/19)   [K
+      01 remote: Compressing objects:  94% (18/19)   [K
+      01 remote: Compressing objects: 100% (19/19)   [K
+      01 remote: Compressing objects: 100% (19/19), done.[K
+      01 
+      01 remote: Total 24 (delta 20), reused 9 (delta 5), pack-reused 0[K
+      01 
+      01 Unpacking objects:   4% (1/24)   
+      01 Unpacking objects:   8% (2/24)   
+      01 Unpacking objects:  12% (3/24)   
+      01 Unpacking objects:  16% (4/24)   
+      01 Unpacking objects:  20% (5/24)   
+      01 Unpacking objects:  25% (6/24)   
+      01 Unpacking objects:  29% (7/24)   
+      01 Unpacking objects:  33% (8/24)   
+      01 Unpacking objects:  37% (9/24)   
+      01 Unpacking objects:  41% (10/24)   
+      01 Unpacking objects:  45% (11/24)   
+      01 Unpacking objects:  50% (12/24)   
+      01 Unpacking objects:  54% (13/24)   
+      01 Unpacking objects:  58% (14/24)   
+      01 Unpacking objects:  62% (15/24)   
+      01 Unpacking objects:  66% (16/24)   
+      01 Unpacking objects:  70% (17/24)   
+      01 Unpacking objects:  75% (18/24)   
+      01 Unpacking objects:  79% (19/24)   
+      01 Unpacking objects:  83% (20/24)   
+      01 Unpacking objects:  87% (21/24)   
+      01 Unpacking objects:  91% (22/24)   
+      01 Unpacking objects:  95% (23/24)   
+      01 Unpacking objects: 100% (24/24)   
+      01 Unpacking objects: 100% (24/24), done.
+      01 
+      01 From github.com:sharn722/wallet
+      01 
+      01    1710667..ca355cd  master     -> master
+      01 
+    ✔ 01 deploy@104.131.2.210 1.689s
+00:04 git:create_release
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160522170205
+    ✔ 01 deploy@104.131.2.210 0.008s
+      02 git archive master | tar -x -f - -C /home/deploy/apps/wallet/releases/20160522170205
+    ✔ 02 deploy@104.131.2.210 0.061s
+00:04 git:set_current_revision
+      01 echo "ca355cd640b960d2965f44ac718b1c1d68bea5df" >> REVISION
+    ✔ 01 deploy@104.131.2.210 0.007s
+00:04 deploy:symlink:linked_files
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160522170205/config /home/deploy/apps/wallet/releases/20160522170205
+    ✔ 01 deploy@104.131.2.210 0.007s
+      02 ln -s /home/deploy/apps/wallet/shared/config/database.yml /home/deploy/apps/wallet/releases/20160522170205/config/database.yml
+    ✔ 02 deploy@104.131.2.210 0.007s
+      03 ln -s /home/deploy/apps/wallet/shared/config/secrets.yml /home/deploy/apps/wallet/releases/20160522170205/config/secrets.yml
+    ✔ 03 deploy@104.131.2.210 0.007s
+      04 ln -s /home/deploy/apps/wallet/shared/config/nginx.conf /home/deploy/apps/wallet/releases/20160522170205/config/nginx.conf
+    ✔ 04 deploy@104.131.2.210 0.063s
+      05 ln -s /home/deploy/apps/wallet/shared/.env /home/deploy/apps/wallet/releases/20160522170205/.env
+    ✔ 05 deploy@104.131.2.210 0.007s
+00:04 deploy:symlink:linked_dirs
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160522170205 /home/deploy/apps/wallet/releases/20160522170205/tmp /home/deploy/apps/wallet/releases/20160522170205/vendor /home/deploy/apps/wallet/releases/20160522170205/public
+    ✔ 01 deploy@104.131.2.210 0.008s
+      02 rm -rf /home/deploy/apps/wallet/releases/20160522170205/bin
+    ✔ 02 deploy@104.131.2.210 0.062s
+      03 ln -s /home/deploy/apps/wallet/shared/bin /home/deploy/apps/wallet/releases/20160522170205/bin
+    ✔ 03 deploy@104.131.2.210 0.007s
+      04 rm -rf /home/deploy/apps/wallet/releases/20160522170205/log
+    ✔ 04 deploy@104.131.2.210 0.007s
+      05 ln -s /home/deploy/apps/wallet/shared/log /home/deploy/apps/wallet/releases/20160522170205/log
+    ✔ 05 deploy@104.131.2.210 0.007s
+      06 ln -s /home/deploy/apps/wallet/shared/tmp/pids /home/deploy/apps/wallet/releases/20160522170205/tmp/pids
+    ✔ 06 deploy@104.131.2.210 0.007s
+      07 ln -s /home/deploy/apps/wallet/shared/tmp/cache /home/deploy/apps/wallet/releases/20160522170205/tmp/cache
+    ✔ 07 deploy@104.131.2.210 0.007s
+      08 ln -s /home/deploy/apps/wallet/shared/tmp/sockets /home/deploy/apps/wallet/releases/20160522170205/tmp/sockets
+    ✔ 08 deploy@104.131.2.210 0.006s
+      09 ln -s /home/deploy/apps/wallet/shared/vendor/bundle /home/deploy/apps/wallet/releases/20160522170205/vendor/bundle
+    ✔ 09 deploy@104.131.2.210 0.007s
+      10 ln -s /home/deploy/apps/wallet/shared/public/system /home/deploy/apps/wallet/releases/20160522170205/public/system
+    ✔ 10 deploy@104.131.2.210 0.007s
+      11 rm -rf /home/deploy/apps/wallet/releases/20160522170205/public/assets
+    ✔ 11 deploy@104.131.2.210 0.056s
+      12 ln -s /home/deploy/apps/wallet/shared/public/assets /home/deploy/apps/wallet/releases/20160522170205/public/assets
+    ✔ 12 deploy@104.131.2.210 0.009s
+00:04 bundler:install
+      01 $HOME/.rbenv/bin/rbenv exec bundle install --path /home/deploy/apps/wallet/shared/bundle --without development test --deployment --quiet
+    ✔ 01 deploy@104.131.2.210 1.415s
+00:06 deploy:assets:precompile
+      01 $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile
+    ✔ 01 deploy@104.131.2.210 6.480s
+00:12 deploy:assets:backup_manifest
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160522170205/assets_manifest_backup
+    ✔ 01 deploy@104.131.2.210 0.060s
+      02 cp /home/deploy/apps/wallet/releases/20160522170205/public/assets/.sprockets-manifest-7296372895591f6b9e209cf49d98de2b.json /home/deploy/apps/wallet/releases/20160522170205/assets_manifest_backup
+    ✔ 02 deploy@104.131.2.210 0.009s
+00:12 deploy:migrate
+      [deploy:migrate] Run `rake db:migrate`
+00:12 deploy:migrating
+      01 $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate
+    ✔ 01 deploy@104.131.2.210 5.701s
+Checking out master
+Already on 'master'
+M	wallet_deploy_log
+Your branch is up-to-date with 'origin/master'.
+Checking specs...
+/home/deploy/.rbenv/versions/2.2.4/bin/ruby -I/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/ruby/2.2.0/gems/rspec-core-3.4.4/lib:/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/ruby/2.2.0/gems/rspec-support-3.4.1/lib /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/ruby/2.2.0/gems/rspec-core-3.4.4/exe/rspec --pattern spec/\*\*\{,/\*/\*\*\}/\*_spec.rb
+**.
+
+Pending: (Failures listed here are expected and do not affect your suite's status)
+
+  1) DeployMailer add some examples to (or delete) /home/deploy/work/wallet/spec/mailers/deploy_mailer_spec.rb
+     # Not yet implemented
+     # ./spec/mailers/deploy_mailer_spec.rb:4
+
+  2) Account add some examples to (or delete) /home/deploy/work/wallet/spec/models/account_spec.rb
+     # Not yet implemented
+     # ./spec/models/account_spec.rb:4
+
+Finished in 0.01038 seconds (files took 5.01 seconds to load)
+3 examples, 0 failures, 2 pending
+
+Going back to branch master
+Already on 'master'
+M	wallet_deploy_log
+Your branch is up-to-date with 'origin/master'.
+00:28 deploy:symlink:release
+      01 ln -s /home/deploy/apps/wallet/releases/20160522170205 /home/deploy/apps/wallet/releases/current
+    ✔ 01 deploy@104.131.2.210 0.014s
+      02 mv /home/deploy/apps/wallet/releases/current /home/deploy/apps/wallet
+    ✔ 02 deploy@104.131.2.210 0.014s
+00:28 deploy:cleanup
+      Keeping 5 of 6 deployed releases on 104.131.2.210
+      01 rm -rf /home/deploy/apps/wallet/releases/20160522100707
+    ✔ 01 deploy@104.131.2.210 0.033s
+00:28 puma:restart
+      01 $HOME/.rbenv/bin/rbenv exec bundle exec pumactl -S /home/deploy/apps/wallet/shared/tmp/pids/puma.state restart
+      01 Command restart sent success
+      01 
+    ✔ 01 deploy@104.131.2.210 1.897s
+00:30 deploy:log_revision
+      01 echo "Branch master (at ca355cd640b960d2965f44ac718b1c1d68bea5df) deployed as release 20160522170205 by deploy" >> /home/deploy/apps/wallet/revisions.log
+    ✔ 01 deploy@104.131.2.210 0.012s
