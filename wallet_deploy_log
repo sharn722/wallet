@@ -5758,3 +5758,39 @@ The deploy has failed with an error:
 
  DEBUG [37af613c] Command: cd /home/deploy/apps/wallet/releases/20160523080833 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.2.4" RAILS_ENV="production" ; $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile )
 
+------START-------
+/home/deploy/work/wallet
+rbenv 1.0.0-16-gd6ab394
+ruby 2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]
+/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+-------------------------
+deploy
+/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:94:in `block in materialize': Could not find byebug-8.2.5 in any of the sources (Bundler::GemNotFound)
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `map!'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `materialize'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:137:in `specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:182:in `specs_for'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:171:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/runtime.rb:13:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler.rb:92:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:94:in `block in materialize': Could not find byebug-8.2.5 in any of the sources (Bundler::GemNotFound)
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `map!'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `materialize'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:137:in `specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:182:in `specs_for'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:171:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/runtime.rb:13:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler.rb:92:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
