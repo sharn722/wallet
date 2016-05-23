@@ -2503,3 +2503,10 @@ deploy
 deploy
 /home/deploy/work/wallet
 ./wallet_deploy.sh: line 23: bundle: command not found
+-------------------------
+deploy
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+./wallet_deploy.sh: line 23: bundle: command not found
