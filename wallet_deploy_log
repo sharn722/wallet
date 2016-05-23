@@ -2839,3 +2839,6 @@ Your branch is up-to-date with 'origin/master'.
 00:33 deploy:log_revision
       01 echo "Branch master (at 34e8dc89a12a2cd4791ed674a6d577422a3b526d) deployed as release 20160523031725 by deploy" >> /home/deploy/apps/wallet/revisions.log
     ✔ 01 deploy@104.131.2.210 0.173s
+/home/deploy/work/wallet
+-------------------------
+deploy
