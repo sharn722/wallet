@@ -5452,3 +5452,309 @@ deploy
 	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/setup.rb:18:in `<top (required)>'
 	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
 	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+/home/deploy/work/wallet
+rbenv 1.0.0-16-gd6ab394
+ruby 2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]
+/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+-------------------------
+deploy
+/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:94:in `block in materialize': Could not find byebug-8.2.5 in any of the sources (Bundler::GemNotFound)
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `map!'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `materialize'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:137:in `specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:182:in `specs_for'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:171:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/runtime.rb:13:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler.rb:92:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:94:in `block in materialize': Could not find byebug-8.2.5 in any of the sources (Bundler::GemNotFound)
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `map!'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `materialize'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:137:in `specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:182:in `specs_for'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:171:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/runtime.rb:13:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler.rb:92:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+/home/deploy/work/wallet
+rbenv 1.0.0-16-gd6ab394
+ruby 2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]
+/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+-------------------------
+deploy
+/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+Using rake 11.1.2
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.9.0
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.0.0
+Using rack 1.6.4
+Using mime-types-data 3.2016.0221
+Using arel 6.0.3
+Using net-ssh 3.1.1
+Using debug_inspector 0.0.2
+Using byebug 9.0.4
+Using capistrano-harrow 0.5.1
+Using puma 3.4.0
+Using coffee-script-source 1.10.0
+Using execjs 2.7.0
+Using thor 0.19.1
+Using concurrent-ruby 1.0.2
+Using diff-lcs 1.2.5
+Using dotenv 2.1.1
+Using multi_json 1.12.1
+Using mysql2 0.3.21
+Using bundler 1.11.2
+Using rspec-support 3.4.1
+Using sass 3.4.22
+Using tilt 2.0.4
+Using spring 1.7.1
+Using rdoc 4.2.2
+Using tzinfo 1.2.2
+Using nokogiri 1.6.7.2
+Using rack-test 0.6.3
+Using mime-types 3.0
+Using net-scp 1.2.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 3.0.0
+Using sprockets 3.6.0
+Using rspec-core 3.4.4
+Using rspec-expectations 3.4.0
+Using rspec-mocks 3.4.1
+Using sdoc 0.4.1
+Using activesupport 4.2.4
+Using tzinfo-data 1.2016.4
+Using loofah 2.0.3
+Using mail 2.6.4
+Using sshkit 1.10.0
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.6
+Using activemodel 4.2.4
+Using jbuilder 2.4.1
+Using rails-html-sanitizer 1.0.3
+Using airbrussh 1.0.2
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.4
+Using activerecord 4.2.4
+Using capistrano 3.5.0
+Using actionview 4.2.4
+Using capistrano-bundler 1.1.4
+Using capistrano-rbenv 2.0.4
+Using capistrano3-puma 1.2.1
+Using actionpack 4.2.4
+Using capistrano-rails 1.1.6
+Using actionmailer 4.2.4
+Using railties 4.2.4
+Using sprockets-rails 3.0.4
+Using coffee-rails 4.1.1
+Using dotenv-rails 2.1.1
+Using jquery-rails 4.1.1
+Using rspec-rails 3.4.2
+Using rails 4.2.4
+Using sass-rails 5.0.4
+Using web-console 2.3.0
+Using turbolinks 2.5.3
+Bundle complete! 21 Gemfile dependencies, 75 gems now installed.
+Bundled gems are installed into /home/deploy/apps/wallet/shared/bundle.
+capistrano (3.5.0, 3.4.0)
+capistrano-bundler (1.1.4)
+capistrano-harrow (0.5.1)
+capistrano-rails (1.1.6)
+capistrano-rbenv (2.0.4)
+capistrano3-puma (1.2.1)
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+00:00 git:wrapper
+      01 mkdir -p /tmp/wallet/
+    ✔ 01 deploy@104.131.2.210 0.009s
+      Uploading /tmp/wallet/git-ssh.sh 100.0%
+      02 chmod +rx /tmp/wallet/git-ssh.sh
+    ✔ 02 deploy@104.131.2.210 0.008s
+00:00 git:check
+      01 git ls-remote --heads git@github.com:sharn722/wallet.git
+      01 d73a769711611ac80a54b735c145900a746ebbdb
+      01 	
+      01 refs/heads/master
+      01 
+    ✔ 01 deploy@104.131.2.210 3.298s
+00:03 deploy:check:directories
+      01 mkdir -p /home/deploy/apps/wallet/shared /home/deploy/apps/wallet/releases
+    ✔ 01 deploy@104.131.2.210 0.009s
+00:03 deploy:check:linked_dirs
+      01 mkdir -p /home/deploy/apps/wallet/shared/bin /home/deploy/apps/wallet/shared/log /home/deploy/apps/wallet/shared/tmp/pids /home/deploy/apps/wallet/shared/tmp/cache /home/deploy/apps/wallet/shared/tmp/sockets /home/deploy/apps/wallet/shared/vendor/bundle /home/deploy/apps/wallet/shared/public/system /home/deploy/apps/wallet/shared/public/assets
+    ✔ 01 deploy@104.131.2.210 0.009s
+00:03 deploy:check:make_linked_dirs
+      01 mkdir -p /home/deploy/apps/wallet/shared/config /home/deploy/apps/wallet/shared
+    ✔ 01 deploy@104.131.2.210 0.008s
+00:03 git:clone
+      The repository mirror is at /home/deploy/apps/wallet/repo
+00:03 git:update
+      01 git remote update --prune
+      01 Fetching origin
+      01 
+      01 remote: Counting objects: 20, done.[K
+      01 
+      01 remote: Compressing objects:   7% (1/14)   [K
+      01 remote: Compressing objects:  14% (2/14)   [K
+      01 remote: Compressing objects:  21% (3/14)   [K
+      01 remote: Compressing objects:  28% (4/14)   [K
+      01 remote: Compressing objects:  35% (5/14)   [K
+      01 remote: Compressing objects:  42% (6/14)   [K
+      01 remote: Compressing objects:  50% (7/14)   [K
+      01 remote: Compressing objects:  57% (8/14)   [K
+      01 remote: Compressing objects:  64% (9/14)   [K
+      01 remote: Compressing objects:  71% (10/14)   [K
+      01 remote: Compressing objects:  78% (11/14)   [K
+      01 remote: Compressing objects:  85% (12/14)   [K
+      01 remote: Compressing objects:  92% (13/14)   [K
+      01 remote: Compressing objects: 100% (14/14)   [K
+      01 remote: Compressing objects: 100% (14/14), done.[K
+      01 
+      01 remote: Total 20 (delta 17), reused 9 (delta 6), pack-reused 0[K
+      01 
+      01 Unpacking objects:   5% (1/20)   
+      01 Unpacking objects:  10% (2/20)   
+      01 Unpacking objects:  15% (3/20)   
+      01 Unpacking objects:  20% (4/20)   
+      01 Unpacking objects:  25% (5/20)   
+      01 Unpacking objects:  30% (6/20)   
+      01 Unpacking objects:  35% (7/20)   
+      01 Unpacking objects:  40% (8/20)   
+      01 Unpacking objects:  45% (9/20)   
+      01 Unpacking objects:  50% (10/20)   
+      01 Unpacking objects:  55% (11/20)   
+      01 Unpacking objects:  60% (12/20)   
+      01 Unpacking objects:  65% (13/20)   
+      01 Unpacking objects:  70% (14/20)   
+      01 Unpacking objects:  75% (15/20)   
+      01 Unpacking objects:  80% (16/20)   
+      01 Unpacking objects:  85% (17/20)   
+      01 Unpacking objects:  90% (18/20)   
+      01 Unpacking objects:  95% (19/20)   
+      01 Unpacking objects: 100% (20/20)   
+      01 Unpacking objects: 100% (20/20), done.
+      01 
+      01 From github.com:sharn722/wallet
+      01 
+      01    1ea6b32..d73a769  master     -> master
+      01 
+    ✔ 01 deploy@104.131.2.210 1.596s
+00:05 git:create_release
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160523080833
+    ✔ 01 deploy@104.131.2.210 0.009s
+      02 git archive master | tar -x -f - -C /home/deploy/apps/wallet/releases/20160523080833
+    ✔ 02 deploy@104.131.2.210 0.078s
+00:05 git:set_current_revision
+      01 echo "d73a769711611ac80a54b735c145900a746ebbdb" >> REVISION
+    ✔ 01 deploy@104.131.2.210 0.007s
+00:05 deploy:symlink:linked_files
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160523080833/config /home/deploy/apps/wallet/releases/20160523080833
+    ✔ 01 deploy@104.131.2.210 0.007s
+      02 ln -s /home/deploy/apps/wallet/shared/config/database.yml /home/deploy/apps/wallet/releases/20160523080833/config/database.yml
+    ✔ 02 deploy@104.131.2.210 0.007s
+      03 ln -s /home/deploy/apps/wallet/shared/config/secrets.yml /home/deploy/apps/wallet/releases/20160523080833/config/secrets.yml
+    ✔ 03 deploy@104.131.2.210 0.007s
+      04 ln -s /home/deploy/apps/wallet/shared/config/nginx.conf /home/deploy/apps/wallet/releases/20160523080833/config/nginx.conf
+    ✔ 04 deploy@104.131.2.210 0.008s
+      05 ln -s /home/deploy/apps/wallet/shared/.env /home/deploy/apps/wallet/releases/20160523080833/.env
+    ✔ 05 deploy@104.131.2.210 0.007s
+00:05 deploy:symlink:linked_dirs
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160523080833 /home/deploy/apps/wallet/releases/20160523080833/tmp /home/deploy/apps/wallet/releases/20160523080833/vendor /home/deploy/apps/wallet/releases/20160523080833/public
+    ✔ 01 deploy@104.131.2.210 0.007s
+      02 rm -rf /home/deploy/apps/wallet/releases/20160523080833/bin
+    ✔ 02 deploy@104.131.2.210 0.056s
+      03 ln -s /home/deploy/apps/wallet/shared/bin /home/deploy/apps/wallet/releases/20160523080833/bin
+    ✔ 03 deploy@104.131.2.210 0.008s
+      04 rm -rf /home/deploy/apps/wallet/releases/20160523080833/log
+    ✔ 04 deploy@104.131.2.210 0.007s
+      05 ln -s /home/deploy/apps/wallet/shared/log /home/deploy/apps/wallet/releases/20160523080833/log
+    ✔ 05 deploy@104.131.2.210 0.007s
+      06 ln -s /home/deploy/apps/wallet/shared/tmp/pids /home/deploy/apps/wallet/releases/20160523080833/tmp/pids
+    ✔ 06 deploy@104.131.2.210 0.008s
+      07 ln -s /home/deploy/apps/wallet/shared/tmp/cache /home/deploy/apps/wallet/releases/20160523080833/tmp/cache
+    ✔ 07 deploy@104.131.2.210 0.012s
+      08 ln -s /home/deploy/apps/wallet/shared/tmp/sockets /home/deploy/apps/wallet/releases/20160523080833/tmp/sockets
+    ✔ 08 deploy@104.131.2.210 0.013s
+      09 ln -s /home/deploy/apps/wallet/shared/vendor/bundle /home/deploy/apps/wallet/releases/20160523080833/vendor/bundle
+    ✔ 09 deploy@104.131.2.210 0.065s
+      10 ln -s /home/deploy/apps/wallet/shared/public/system /home/deploy/apps/wallet/releases/20160523080833/public/system
+    ✔ 10 deploy@104.131.2.210 0.012s
+      11 rm -rf /home/deploy/apps/wallet/releases/20160523080833/public/assets
+    ✔ 11 deploy@104.131.2.210 0.012s
+      12 ln -s /home/deploy/apps/wallet/shared/public/assets /home/deploy/apps/wallet/releases/20160523080833/public/assets
+    ✔ 12 deploy@104.131.2.210 0.011s
+00:05 bundler:install
+      01 $HOME/.rbenv/bin/rbenv exec bundle install --path /home/deploy/apps/wallet/shared/bundle --without development test --deployment --quiet
+    ✔ 01 deploy@104.131.2.210 1.557s
+00:07 deploy:assets:precompile
+      01 $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile
+(Backtrace restricted to imported tasks)
+cap aborted!
+Interrupt: 
+
+Tasks: TOP => deploy:assets:precompile
+(See full trace by running task with --trace)
+The deploy has failed with an error: 
+
+
+** DEPLOY FAILED
+** Refer to log/capistrano.log for details. Here are the last 20 lines:
+
+
+ DEBUG [a471fa59] Running [ -d /home/deploy/apps/wallet/releases/20160523080833/public/assets ] on 104.131.2.210
+
+ DEBUG [a471fa59] Command: [ -d /home/deploy/apps/wallet/releases/20160523080833/public/assets ]
+
+ DEBUG [a471fa59] Finished in 0.009 seconds with exit status 0 (successful).
+
+  INFO [602e8d60] Running /usr/bin/env rm -rf /home/deploy/apps/wallet/releases/20160523080833/public/assets on 104.131.2.210
+
+ DEBUG [602e8d60] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.2.4" ; /usr/bin/env rm -rf /home/deploy/apps/wallet/releases/20160523080833/public/assets )
+
+  INFO [602e8d60] Finished in 0.012 seconds with exit status 0 (successful).
+
+  INFO [decbde90] Running /usr/bin/env ln -s /home/deploy/apps/wallet/shared/public/assets /home/deploy/apps/wallet/releases/20160523080833/public/assets on 104.131.2.210
+
+ DEBUG [decbde90] Command: ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.2.4" ; /usr/bin/env ln -s /home/deploy/apps/wallet/shared/public/assets /home/deploy/apps/wallet/releases/20160523080833/public/assets )
+
+  INFO [decbde90] Finished in 0.011 seconds with exit status 0 (successful).
+
+ DEBUG [e0923664] Running if test ! -d /home/deploy/apps/wallet/releases/20160523080833; then echo "Directory does not exist '/home/deploy/apps/wallet/releases/20160523080833'" 1>&2; false; fi on 104.131.2.210
+
+ DEBUG [e0923664] Command: if test ! -d /home/deploy/apps/wallet/releases/20160523080833; then echo "Directory does not exist '/home/deploy/apps/wallet/releases/20160523080833'" 1>&2; false; fi
+
+ DEBUG [e0923664] Finished in 0.007 seconds with exit status 0 (successful).
+
+  INFO [36f97c5f] Running $HOME/.rbenv/bin/rbenv exec bundle install --path /home/deploy/apps/wallet/shared/bundle --without development test --deployment --quiet on 104.131.2.210
+
+ DEBUG [36f97c5f] Command: cd /home/deploy/apps/wallet/releases/20160523080833 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.2.4" ; $HOME/.rbenv/bin/rbenv exec bundle install --path /home/deploy/apps/wallet/shared/bundle --without development test --deployment --quiet )
+
+  INFO [36f97c5f] Finished in 1.557 seconds with exit status 0 (successful).
+
+ DEBUG [a785ab52] Running if test ! -d /home/deploy/apps/wallet/releases/20160523080833; then echo "Directory does not exist '/home/deploy/apps/wallet/releases/20160523080833'" 1>&2; false; fi on 104.131.2.210
+
+ DEBUG [a785ab52] Command: if test ! -d /home/deploy/apps/wallet/releases/20160523080833; then echo "Directory does not exist '/home/deploy/apps/wallet/releases/20160523080833'" 1>&2; false; fi
+
+ DEBUG [a785ab52] Finished in 0.006 seconds with exit status 0 (successful).
+
+  INFO [37af613c] Running $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile on 104.131.2.210
+
+ DEBUG [37af613c] Command: cd /home/deploy/apps/wallet/releases/20160523080833 && ( export RBENV_ROOT="$HOME/.rbenv" RBENV_VERSION="2.2.4" RAILS_ENV="production" ; $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile )
+
