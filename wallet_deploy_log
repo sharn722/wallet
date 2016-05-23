@@ -4355,3 +4355,13 @@ Your branch is up-to-date with 'origin/master'.
 00:30 deploy:log_revision
       01 echo "Branch master (at 82100c84b45ed7f85fd413cd2123631e09b550d6) deployed as release 20160523034947 by deploy" >> /home/deploy/apps/wallet/revisions.log
     ✔ 01 deploy@104.131.2.210 0.059s
+/home/deploy/work/wallet
+-------------------------
+deploy
+/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/rubygems_integration.rb:304:in `block in replace_gem': capistrano is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
+	from /home/deploy/.rbenv/versions/2.2.4/bin/cap:22:in `<main>'
