@@ -5176,3 +5176,279 @@ Your branch is up-to-date with 'origin/master'.
 00:30 deploy:log_revision
       01 echo "Branch master (at 1ea6b32b4d45339c2bf8fb78f4234c4437aca34f) deployed as release 20160523075436 by deploy" >> /home/deploy/apps/wallet/revisions.log
     ✔ 01 deploy@104.131.2.210 0.009s
+/home/deploy/work/wallet
+/home/deploy/work/wallet
+/home/deploy/work/wallet
+rbenv 1.0.0-16-gd6ab394
+rbenv 1.0.0-16-gd6ab394
+ruby 2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]
+/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+-------------------------
+deploy
+/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+rbenv 1.0.0-16-gd6ab394
+ruby 2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]
+/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+-------------------------
+deploy
+/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+ruby 2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]
+/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+-------------------------
+deploy
+/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+--- ERROR REPORT TEMPLATE -------------------------------------------------------
+- What did you do?
+
+  I ran the command `/home/deploy/.rbenv/versions/2.2.4/bin/bundle install --with developmentt test`
+
+- What did you expect to happen?
+
+  I expected Bundler to...
+
+- What happened instead?
+
+  Instead, what actually happened was...
+
+
+Error details
+
+    RuntimeError: Specs already loaded
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:123:in `resolve_remotely!'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/installer.rb:194:in `resolve_if_need'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/installer.rb:69:in `run'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/installer.rb:21:in `install'
+      /home/deploy/.rbenv/rbenv.d/exec/gem-rehash/rubygems_plugin.rb:27:in `install'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/cli/install.rb:105:in `run'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/cli.rb:172:in `install'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/cli.rb:10:in `start'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/exe/bundle:19:in `block in <top (required)>'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/friendly_errors.rb:7:in `with_friendly_errors'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/exe/bundle:17:in `<top (required)>'
+      /home/deploy/.rbenv/versions/2.2.4/bin/bundle:23:in `load'
+      /home/deploy/.rbenv/versions/2.2.4/bin/bundle:23:in `<main>'
+
+Environment
+
+    Bundler   1.11.2
+    Rubygems  2.4.5.1
+    Ruby      2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]
+    GEM_HOME  /home/deploy/apps/ci/shared/bundle/ruby/2.2.0
+    GEM_PATH  
+    Git       1.9.1
+
+Bundler settings
+
+    frozen
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "1"
+    path
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "/home/deploy/apps/ci/shared/bundle"
+    without
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "development"
+    disable_shared_gems
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "1"
+    with
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "developmentt:test"
+    gemfile
+      Set via BUNDLE_GEMFILE: "/home/deploy/apps/ci/releases/20160522201024/Gemfile"
+    bin_path
+      Set via BUNDLE_BIN_PATH: "/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/exe/bundle"
+--- TEMPLATE END ----------------------------------------------------------------
+
+Unfortunately, an unexpected error occurred, and Bundler cannot continue.
+
+First, try this link to see if there are any existing issue reports for this error:
+https://github.com/bundler/bundler/search?q=Specs+already+loaded&type=Issues
+
+If there aren't any reports for this error yet, please create copy and paste the report template above into a new issue. Don't forget to anonymize any private data! The new issue form is located at:
+https://github.com/bundler/bundler/issues/new
+--- ERROR REPORT TEMPLATE -------------------------------------------------------
+- What did you do?
+
+  I ran the command `/home/deploy/.rbenv/versions/2.2.4/bin/bundle install --with developmentt test`
+
+- What did you expect to happen?
+
+  I expected Bundler to...
+
+- What happened instead?
+
+  Instead, what actually happened was...
+
+
+Error details
+
+    RuntimeError: Specs already loaded
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:123:in `resolve_remotely!'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/installer.rb:194:in `resolve_if_need'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/installer.rb:69:in `run'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/installer.rb:21:in `install'
+      /home/deploy/.rbenv/rbenv.d/exec/gem-rehash/rubygems_plugin.rb:27:in `install'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/cli/install.rb:105:in `run'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/cli.rb:172:in `install'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/cli.rb:10:in `start'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/exe/bundle:19:in `block in <top (required)>'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/friendly_errors.rb:7:in `with_friendly_errors'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/exe/bundle:17:in `<top (required)>'
+      /home/deploy/.rbenv/versions/2.2.4/bin/bundle:23:in `load'
+      /home/deploy/.rbenv/versions/2.2.4/bin/bundle:23:in `<main>'
+
+Environment
+
+    Bundler   1.11.2
+    Rubygems  2.4.5.1
+    Ruby      2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]
+    GEM_HOME  /home/deploy/apps/ci/shared/bundle/ruby/2.2.0
+    GEM_PATH  
+    Git       1.9.1
+
+Bundler settings
+
+    frozen
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "1"
+    path
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "/home/deploy/apps/ci/shared/bundle"
+    without
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "development"
+    disable_shared_gems
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "1"
+    with
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "developmentt:test"
+    gemfile
+      Set via BUNDLE_GEMFILE: "/home/deploy/apps/ci/releases/20160522201024/Gemfile"
+    bin_path
+      Set via BUNDLE_BIN_PATH: "/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/exe/bundle"
+--- TEMPLATE END ----------------------------------------------------------------
+
+Unfortunately, an unexpected error occurred, and Bundler cannot continue.
+
+First, try this link to see if there are any existing issue reports for this error:
+https://github.com/bundler/bundler/search?q=Specs+already+loaded&type=Issues
+
+If there aren't any reports for this error yet, please create copy and paste the report template above into a new issue. Don't forget to anonymize any private data! The new issue form is located at:
+https://github.com/bundler/bundler/issues/new
+--- ERROR REPORT TEMPLATE -------------------------------------------------------
+- What did you do?
+
+  I ran the command `/home/deploy/.rbenv/versions/2.2.4/bin/bundle install --with developmentt test`
+
+- What did you expect to happen?
+
+  I expected Bundler to...
+
+- What happened instead?
+
+  Instead, what actually happened was...
+
+
+Error details
+
+    RuntimeError: Specs already loaded
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:123:in `resolve_remotely!'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/installer.rb:194:in `resolve_if_need'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/installer.rb:69:in `run'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/installer.rb:21:in `install'
+      /home/deploy/.rbenv/rbenv.d/exec/gem-rehash/rubygems_plugin.rb:27:in `install'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/cli/install.rb:105:in `run'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/cli.rb:172:in `install'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/cli.rb:10:in `start'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/exe/bundle:19:in `block in <top (required)>'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/friendly_errors.rb:7:in `with_friendly_errors'
+      /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/exe/bundle:17:in `<top (required)>'
+      /home/deploy/.rbenv/versions/2.2.4/bin/bundle:23:in `load'
+      /home/deploy/.rbenv/versions/2.2.4/bin/bundle:23:in `<main>'
+
+Environment
+
+    Bundler   1.11.2
+    Rubygems  2.4.5.1
+    Ruby      2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]
+    GEM_HOME  /home/deploy/apps/ci/shared/bundle/ruby/2.2.0
+    GEM_PATH  
+    Git       1.9.1
+
+Bundler settings
+
+    frozen
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "1"
+    path
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "/home/deploy/apps/ci/shared/bundle"
+    without
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "development"
+    disable_shared_gems
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "1"
+    with
+      Set for your local app (/home/deploy/apps/ci/releases/20160522201024/.bundle/config): "developmentt:test"
+    gemfile
+      Set via BUNDLE_GEMFILE: "/home/deploy/apps/ci/releases/20160522201024/Gemfile"
+    bin_path
+      Set via BUNDLE_BIN_PATH: "/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/exe/bundle"
+--- TEMPLATE END ----------------------------------------------------------------
+
+Unfortunately, an unexpected error occurred, and Bundler cannot continue.
+
+First, try this link to see if there are any existing issue reports for this error:
+https://github.com/bundler/bundler/search?q=Specs+already+loaded&type=Issues
+
+If there aren't any reports for this error yet, please create copy and paste the report template above into a new issue. Don't forget to anonymize any private data! The new issue form is located at:
+https://github.com/bundler/bundler/issues/new
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:94:in `block in materialize': Could not find byebug-8.2.5 in any of the sources (Bundler::GemNotFound)
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `map!'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `materialize'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:137:in `specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:182:in `specs_for'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:171:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/runtime.rb:13:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler.rb:92:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:94:in `block in materialize': Could not find byebug-8.2.5 in any of the sources (Bundler::GemNotFound)
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `map!'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `materialize'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:137:in `specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:182:in `specs_for'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:171:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/runtime.rb:13:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler.rb:92:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:94:in `block in materialize': Could not find byebug-8.2.5 in any of the sources (Bundler::GemNotFound)
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `map!'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `materialize'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:137:in `specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:182:in `specs_for'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:171:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/runtime.rb:13:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler.rb:92:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
