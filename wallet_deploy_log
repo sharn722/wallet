@@ -2842,3 +2842,12 @@ Your branch is up-to-date with 'origin/master'.
 /home/deploy/work/wallet
 -------------------------
 deploy
+/home/deploy/work/wallet
+-------------------------
+deploy
+./wallet_deploy.sh: line 17: bundle: command not found
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+./wallet_deploy.sh: line 24: bundle: command not found
