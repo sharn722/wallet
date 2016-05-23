@@ -4115,3 +4115,243 @@ deploy
 /home/deploy/work/wallet
 /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/rubygems_integration.rb:304:in `block in replace_gem': capistrano is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
 	from /home/deploy/.rbenv/versions/2.2.4/bin/cap:22:in `<main>'
+/home/deploy/work/wallet
+-------------------------
+deploy
+/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/rubygems_integration.rb:304:in `block in replace_gem': capistrano is not part of the bundle. Add it to Gemfile. (Gem::LoadError)
+	from /home/deploy/.rbenv/versions/2.2.4/bin/cap:22:in `<main>'
+/home/deploy/work/wallet
+-------------------------
+deploy
+/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+capistrano (3.5.0, 3.4.0)
+capistrano-bundler (1.1.4)
+capistrano-harrow (0.5.1)
+capistrano-rails (1.1.6)
+capistrano-rbenv (2.0.4)
+capistrano3-puma (1.2.1)
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+00:00 git:wrapper
+      01 mkdir -p /tmp/wallet/
+    ✔ 01 deploy@104.131.2.210 0.061s
+      Uploading /tmp/wallet/git-ssh.sh 100.0%
+      02 chmod +rx /tmp/wallet/git-ssh.sh
+    ✔ 02 deploy@104.131.2.210 0.008s
+00:00 git:check
+      01 git ls-remote --heads git@github.com:sharn722/wallet.git
+      01 82100c84b45ed7f85fd413cd2123631e09b550d6
+      01 	
+      01 refs/heads/master
+      01 
+    ✔ 01 deploy@104.131.2.210 2.234s
+00:02 deploy:check:directories
+      01 mkdir -p /home/deploy/apps/wallet/shared /home/deploy/apps/wallet/releases
+    ✔ 01 deploy@104.131.2.210 0.009s
+00:02 deploy:check:linked_dirs
+      01 mkdir -p /home/deploy/apps/wallet/shared/bin /home/deploy/apps/wallet/shared/log /home/deploy/apps/wallet/shared/tmp/pids /home/deploy/apps/wallet/shared/tmp/cache /home/deploy/apps/wallet/shared/tmp/sockets /home/deploy/apps/wallet/shared/vendor/bundle /home/deploy/apps/wallet/shared/public/system /home/deploy/apps/wallet/shared/public/assets
+    ✔ 01 deploy@104.131.2.210 0.008s
+00:02 deploy:check:make_linked_dirs
+      01 mkdir -p /home/deploy/apps/wallet/shared/config /home/deploy/apps/wallet/shared
+    ✔ 01 deploy@104.131.2.210 0.008s
+00:02 git:clone
+      The repository mirror is at /home/deploy/apps/wallet/repo
+00:02 git:update
+      01 git remote update --prune
+      01 Fetching origin
+      01 
+      01 remote: Counting objects: 40, done.[K
+      01 
+      01 remote: Compressing objects:   2% (1/34)   [K
+      01 remote: Compressing objects:   5% (2/34)   [K
+      01 remote: Compressing objects:   8% (3/34)   [K
+      01 remote: Compressing objects:  11% (4/34)   [K
+      01 remote: Compressing objects:  14% (5/34)   [K
+      01 remote: Compressing objects:  17% (6/34)   [K
+      01 remote: Compressing objects:  20% (7/34)   [K
+      01 remote: Compressing objects:  23% (8/34)   [K
+      01 remote: Compressing objects:  26% (9/34)   [K
+      01 remote: Compressing objects:  29% (10/34)   [K
+      01 remote: Compressing objects:  32% (11/34)   [K
+      01 remote: Compressing objects:  35% (12/34)   [K
+      01 remote: Compressing objects:  38% (13/34)   [K
+      01 remote: Compressing objects:  41% (14/34)   [K
+      01 remote: Compressing objects:  44% (15/34)   [K
+      01 remote: Compressing objects:  47% (16/34)   [K
+      01 remote: Compressing objects:  50% (17/34)   [K
+      01 remote: Compressing objects:  52% (18/34)   [K
+      01 remote: Compressing objects:  55% (19/34)   [K
+      01 remote: Compressing objects:  58% (20/34)   [K
+      01 remote: Compressing objects:  61% (21/34)   [K
+      01 remote: Compressing objects:  64% (22/34)   [K
+      01 remote: Compressing objects:  67% (23/34)   [K
+      01 remote: Compressing objects:  70% (24/34)   [K
+      01 remote: Compressing objects:  73% (25/34)   [K
+      01 remote: Compressing objects:  76% (26/34)   [K
+      01 remote: Compressing objects:  79% (27/34)   [K
+      01 remote: Compressing objects:  82% (28/34)   [K
+      01 remote: Compressing objects:  85% (29/34)   [K
+      01 remote: Compressing objects:  88% (30/34)   [K
+      01 remote: Compressing objects:  91% (31/34)   [K
+      01 remote: Compressing objects:  94% (32/34)   [K
+      01 remote: Compressing objects:  97% (33/34)   [K
+      01 remote: Compressing objects: 100% (34/34)   [K
+      01 remote: Compressing objects: 100% (34/34), done.[K
+      01 
+      01 remote: Total 40 (delta 34), reused 12 (delta 6), pack-reused 0[K
+      01 
+      01 Unpacking objects:   2% (1/40)   
+      01 Unpacking objects:   5% (2/40)   
+      01 Unpacking objects:   7% (3/40)   
+      01 Unpacking objects:  10% (4/40)   
+      01 Unpacking objects:  12% (5/40)   
+      01 Unpacking objects:  15% (6/40)   
+      01 Unpacking objects:  17% (7/40)   
+      01 Unpacking objects:  20% (8/40)   
+      01 Unpacking objects:  22% (9/40)   
+      01 Unpacking objects:  25% (10/40)   
+      01 Unpacking objects:  27% (11/40)   
+      01 Unpacking objects:  30% (12/40)   
+      01 Unpacking objects:  32% (13/40)   
+      01 Unpacking objects:  35% (14/40)   
+      01 Unpacking objects:  37% (15/40)   Unpacking objects:  40% (16/40)   
+      01 Unpacking objects:  42% (17/40)   
+      01 Unpacking objects:  45% (18/40)   
+      01 Unpacking objects:  47% (19/40)   
+      01 Unpacking objects:  50% (20/40)   
+      01 Unpacking objects:  52% (21/40)   
+      01 Unpacking objects:  55% (22/40)   
+      01 Unpacking objects:  57% (23/40)   
+      01 Unpacking objects:  60% (24/40)   
+      01 Unpacking objects:  62% (25/40)   
+      01 Unpacking objects:  65% (26/40)   
+      01 Unpacking objects:  67% (27/40)   
+      01 Unpacking objects:  70% (28/40)   
+      01 Unpacking objects:  72% (29/40)   
+      01 Unpacking objects:  75% (30/40)   
+      01 Unpacking objects:  77% (31/40)   
+      01 Unpacking objects:  80% (32/40)   
+      01 Unpacking objects:  82% (33/40)   
+      01 Unpacking objects:  85% (34/40)   
+      01 Unpacking objects:  87% (35/40)   
+      01 Unpacking objects:  90% (36/40)   
+      01 Unpacking objects:  92% (37/40)   
+      01 Unpacking objects:  95% (38/40)   
+      01 Unpacking objects:  97% (39/40)   
+      01 Unpacking objects: 100% (40/40)   
+      01 Unpacking objects: 100% (40/40), done.
+      01 
+      01 From github.com:sharn722/wallet
+      01 
+      01    318d500..82100c8  master     -> master
+      01 
+    ✔ 01 deploy@104.131.2.210 1.708s
+00:04 git:create_release
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160523034947
+    ✔ 01 deploy@104.131.2.210 0.007s
+      02 git archive master | tar -x -f - -C /home/deploy/apps/wallet/releases/20160523034947
+    ✔ 02 deploy@104.131.2.210 0.069s
+00:04 git:set_current_revision
+      01 echo "82100c84b45ed7f85fd413cd2123631e09b550d6" >> REVISION
+    ✔ 01 deploy@104.131.2.210 0.009s
+00:04 deploy:symlink:linked_files
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160523034947/config /home/deploy/apps/wallet/releases/20160523034947
+    ✔ 01 deploy@104.131.2.210 0.007s
+      02 ln -s /home/deploy/apps/wallet/shared/config/database.yml /home/deploy/apps/wallet/releases/20160523034947/config/database.yml
+    ✔ 02 deploy@104.131.2.210 0.006s
+      03 ln -s /home/deploy/apps/wallet/shared/config/secrets.yml /home/deploy/apps/wallet/releases/20160523034947/config/secrets.yml
+    ✔ 03 deploy@104.131.2.210 0.055s
+      04 ln -s /home/deploy/apps/wallet/shared/config/nginx.conf /home/deploy/apps/wallet/releases/20160523034947/config/nginx.conf
+    ✔ 04 deploy@104.131.2.210 0.007s
+      05 ln -s /home/deploy/apps/wallet/shared/.env /home/deploy/apps/wallet/releases/20160523034947/.env
+    ✔ 05 deploy@104.131.2.210 0.007s
+00:04 deploy:symlink:linked_dirs
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160523034947 /home/deploy/apps/wallet/releases/20160523034947/tmp /home/deploy/apps/wallet/releases/20160523034947/vendor /home/deploy/apps/wallet/releases/20160523034947/public
+    ✔ 01 deploy@104.131.2.210 0.060s
+      02 rm -rf /home/deploy/apps/wallet/releases/20160523034947/bin
+    ✔ 02 deploy@104.131.2.210 0.007s
+      03 ln -s /home/deploy/apps/wallet/shared/bin /home/deploy/apps/wallet/releases/20160523034947/bin
+    ✔ 03 deploy@104.131.2.210 0.007s
+      04 rm -rf /home/deploy/apps/wallet/releases/20160523034947/log
+    ✔ 04 deploy@104.131.2.210 0.008s
+      05 ln -s /home/deploy/apps/wallet/shared/log /home/deploy/apps/wallet/releases/20160523034947/log
+    ✔ 05 deploy@104.131.2.210 0.055s
+      06 ln -s /home/deploy/apps/wallet/shared/tmp/pids /home/deploy/apps/wallet/releases/20160523034947/tmp/pids
+    ✔ 06 deploy@104.131.2.210 0.006s
+      07 ln -s /home/deploy/apps/wallet/shared/tmp/cache /home/deploy/apps/wallet/releases/20160523034947/tmp/cache
+    ✔ 07 deploy@104.131.2.210 0.006s
+      08 ln -s /home/deploy/apps/wallet/shared/tmp/sockets /home/deploy/apps/wallet/releases/20160523034947/tmp/sockets
+    ✔ 08 deploy@104.131.2.210 0.008s
+      09 ln -s /home/deploy/apps/wallet/shared/vendor/bundle /home/deploy/apps/wallet/releases/20160523034947/vendor/bundle
+    ✔ 09 deploy@104.131.2.210 0.008s
+      10 ln -s /home/deploy/apps/wallet/shared/public/system /home/deploy/apps/wallet/releases/20160523034947/public/system
+    ✔ 10 deploy@104.131.2.210 0.008s
+      11 rm -rf /home/deploy/apps/wallet/releases/20160523034947/public/assets
+    ✔ 11 deploy@104.131.2.210 0.007s
+      12 ln -s /home/deploy/apps/wallet/shared/public/assets /home/deploy/apps/wallet/releases/20160523034947/public/assets
+    ✔ 12 deploy@104.131.2.210 0.006s
+00:04 bundler:install
+      01 $HOME/.rbenv/bin/rbenv exec bundle install --path /home/deploy/apps/wallet/shared/bundle --without development test --deployment --quiet
+    ✔ 01 deploy@104.131.2.210 1.507s
+00:06 deploy:assets:precompile
+      01 $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile
+    ✔ 01 deploy@104.131.2.210 6.458s
+00:12 deploy:assets:backup_manifest
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160523034947/assets_manifest_backup
+    ✔ 01 deploy@104.131.2.210 0.009s
+      02 cp /home/deploy/apps/wallet/releases/20160523034947/public/assets/.sprockets-manifest-7296372895591f6b9e209cf49d98de2b.json /home/deploy/apps/wallet/releases/20160523034947/assets_manifest_backup
+    ✔ 02 deploy@104.131.2.210 0.070s
+00:12 deploy:migrate
+      [deploy:migrate] Run `rake db:migrate`
+00:12 deploy:migrating
+      01 $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate
+    ✔ 01 deploy@104.131.2.210 6.577s
+Checking out master
+Already on 'master'
+M	wallet_deploy_log
+Your branch is up-to-date with 'origin/master'.
+Checking specs...
+/home/deploy/.rbenv/versions/2.2.4/bin/ruby -I/home/deploy/apps/wallet/shared/bundle/ruby/2.2.0/gems/rspec-core-3.4.4/lib:/home/deploy/apps/wallet/shared/bundle/ruby/2.2.0/gems/rspec-support-3.4.1/lib /home/deploy/apps/wallet/shared/bundle/ruby/2.2.0/gems/rspec-core-3.4.4/exe/rspec --pattern spec/\*\*\{,/\*/\*\*\}/\*_spec.rb
+**.
+
+Pending: (Failures listed here are expected and do not affect your suite's status)
+
+  1) DeployMailer add some examples to (or delete) /home/deploy/work/wallet/spec/mailers/deploy_mailer_spec.rb
+     # Not yet implemented
+     # ./spec/mailers/deploy_mailer_spec.rb:4
+
+  2) Account add some examples to (or delete) /home/deploy/work/wallet/spec/models/account_spec.rb
+     # Not yet implemented
+     # ./spec/models/account_spec.rb:4
+
+Finished in 0.0069 seconds (files took 4.72 seconds to load)
+3 examples, 0 failures, 2 pending
+
+Going back to branch master
+Already on 'master'
+M	wallet_deploy_log
+Your branch is up-to-date with 'origin/master'.
+00:28 deploy:symlink:release
+      01 ln -s /home/deploy/apps/wallet/releases/20160523034947 /home/deploy/apps/wallet/releases/current
+    ✔ 01 deploy@104.131.2.210 0.072s
+      02 mv /home/deploy/apps/wallet/releases/current /home/deploy/apps/wallet
+    ✔ 02 deploy@104.131.2.210 0.011s
+00:28 deploy:cleanup
+      Keeping 5 of 6 deployed releases on 104.131.2.210
+      01 rm -rf /home/deploy/apps/wallet/releases/20160523022546
+    ✔ 01 deploy@104.131.2.210 0.075s
+00:28 puma:restart
+      01 $HOME/.rbenv/bin/rbenv exec bundle exec pumactl -S /home/deploy/apps/wallet/shared/tmp/pids/puma.state restart
+      01 Command restart sent success
+      01 
+    ✔ 01 deploy@104.131.2.210 1.787s
+00:30 deploy:log_revision
+      01 echo "Branch master (at 82100c84b45ed7f85fd413cd2123631e09b550d6) deployed as release 20160523034947 by deploy" >> /home/deploy/apps/wallet/revisions.log
+    ✔ 01 deploy@104.131.2.210 0.059s
