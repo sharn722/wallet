@@ -5794,3 +5794,352 @@ deploy
 	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/setup.rb:18:in `<top (required)>'
 	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
 	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+------START-------
+RBENV_VERSION=2.2.4
+XDG_SESSION_ID=142
+GEM_HOME=/home/deploy/apps/ci/shared/bundle/ruby/2.2.0
+TERM=xterm
+SHELL=/bin/bash
+SSH_CLIENT=112.134.1.188 20280 77
+SSH_TTY=/dev/pts/4
+USER=deploy
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+RBENV_ROOT=/home/deploy/.rbenv
+SSH_AUTH_SOCK=/tmp/ssh-6oiWloRofL/agent.30368
+RACK_ENV=development
+RBENV_HOOK_PATH=/home/deploy/.rbenv/rbenv.d:/usr/local/etc/rbenv.d:/etc/rbenv.d:/usr/lib/rbenv/hooks:/home/deploy/.rbenv/plugins/rbenv-gem-rehash/etc/rbenv.d
+MAIL=/var/mail/deploy
+PATH=/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+PWD=/home/deploy/work/wallet
+LANG=en_US.UTF-8
+RBENV_SHELL=bash
+SHLVL=2
+HOME=/home/deploy
+BUNDLE_GEMFILE=/home/deploy/apps/ci/releases/20160522201024/Gemfile
+RAILS_ENV=development
+RBENV_DIR=/home/deploy/apps/ci/current
+LOGNAME=deploy
+GEM_PATH=
+SSH_CONNECTION=112.134.1.188 20280 104.131.2.210 77
+LESSOPEN=| /usr/bin/lesspipe %s
+XDG_RUNTIME_DIR=/run/user/1001
+RUBYOPT=-rbundler/setup
+BUNDLE_BIN_PATH=/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/exe/bundle
+LESSCLOSE=/usr/bin/lesspipe %s %s
+RUBYLIB=/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib:/home/deploy/.rbenv/plugins/rbenv-gem-rehash:/home/deploy/.rbenv/rbenv.d/exec/gem-rehash
+OLDPWD=/home/deploy/apps/ci/current
+_=/usr/bin/printenv
+/home/deploy/work/wallet
+rbenv 1.0.0-16-gd6ab394
+ruby 2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]
+/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+-------------------------
+deploy
+/home/deploy/apps/ci/shared/bundle/ruby/2.2.0/bin:/home/deploy/.rbenv/versions/2.2.4/bin:/home/deploy/.rbenv/libexec:/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:94:in `block in materialize': Could not find byebug-8.2.5 in any of the sources (Bundler::GemNotFound)
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `map!'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `materialize'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:137:in `specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:182:in `specs_for'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:171:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/runtime.rb:13:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler.rb:92:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+/home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:94:in `block in materialize': Could not find byebug-8.2.5 in any of the sources (Bundler::GemNotFound)
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `map!'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/spec_set.rb:87:in `materialize'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:137:in `specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:182:in `specs_for'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/definition.rb:171:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/environment.rb:18:in `requested_specs'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/runtime.rb:13:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler.rb:92:in `setup'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib/bundler/setup.rb:18:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/deploy/.rbenv/versions/2.2.4/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+------START-------
+XDG_SESSION_ID=149
+SHELL=/bin/bash
+TERM=xterm
+SSH_CLIENT=112.134.1.188 20817 77
+OLDPWD=/home/deploy/apps/ci/current
+SSH_TTY=/dev/pts/9
+USER=deploy
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+SSH_AUTH_SOCK=/tmp/ssh-4bIUGc19Bx/agent.21363
+PATH=/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+MAIL=/var/mail/deploy
+PWD=/home/deploy/work/wallet
+LANG=en_US.UTF-8
+RBENV_SHELL=bash
+HOME=/home/deploy
+SHLVL=2
+LOGNAME=deploy
+SSH_CONNECTION=112.134.1.188 20817 104.131.2.210 77
+LESSOPEN=| /usr/bin/lesspipe %s
+XDG_RUNTIME_DIR=/run/user/1001
+LESSCLOSE=/usr/bin/lesspipe %s %s
+_=/usr/bin/printenv
+/home/deploy/work/wallet
+rbenv 1.0.0-16-gd6ab394
+ruby 2.2.4p230 (2015-12-16 revision 53155) [x86_64-linux]
+/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+-------------------------
+deploy
+/home/deploy/.rbenv/plugins/ruby-build/bin:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+Using rake 11.1.2
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.9.0
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.0.0
+Using rack 1.6.4
+Using mime-types-data 3.2016.0221
+Using arel 6.0.3
+Using net-ssh 3.1.1
+Using debug_inspector 0.0.2
+Using byebug 9.0.4
+Using capistrano-harrow 0.5.1
+Using puma 3.4.0
+Using coffee-script-source 1.10.0
+Using execjs 2.7.0
+Using thor 0.19.1
+Using concurrent-ruby 1.0.2
+Using diff-lcs 1.2.5
+Using dotenv 2.1.1
+Using multi_json 1.12.1
+Using mysql2 0.3.21
+Using bundler 1.11.2
+Using rspec-support 3.4.1
+Using sass 3.4.22
+Using tilt 2.0.4
+Using spring 1.7.1
+Using rdoc 4.2.2
+Using tzinfo 1.2.2
+Using nokogiri 1.6.7.2
+Using rack-test 0.6.3
+Using mime-types 3.0
+Using net-scp 1.2.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 3.0.0
+Using sprockets 3.6.0
+Using rspec-core 3.4.4
+Using rspec-expectations 3.4.0
+Using rspec-mocks 3.4.1
+Using sdoc 0.4.1
+Using activesupport 4.2.4
+Using tzinfo-data 1.2016.4
+Using loofah 2.0.3
+Using mail 2.6.4
+Using sshkit 1.10.0
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.6
+Using activemodel 4.2.4
+Using jbuilder 2.4.1
+Using rails-html-sanitizer 1.0.3
+Using airbrussh 1.0.2
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.4
+Using activerecord 4.2.4
+Using capistrano 3.5.0
+Using actionview 4.2.4
+Using capistrano-bundler 1.1.4
+Using capistrano-rbenv 2.0.4
+Using capistrano3-puma 1.2.1
+Using actionpack 4.2.4
+Using capistrano-rails 1.1.6
+Using actionmailer 4.2.4
+Using railties 4.2.4
+Using sprockets-rails 3.0.4
+Using coffee-rails 4.1.1
+Using dotenv-rails 2.1.1
+Using jquery-rails 4.1.1
+Using rspec-rails 3.4.2
+Using rails 4.2.4
+Using sass-rails 5.0.4
+Using web-console 2.3.0
+Using turbolinks 2.5.3
+Bundle complete! 21 Gemfile dependencies, 75 gems now installed.
+Bundled gems are installed into /home/deploy/apps/wallet/shared/bundle.
+capistrano (3.5.0, 3.4.0)
+capistrano-bundler (1.1.4)
+capistrano-harrow (0.5.1)
+capistrano-rails (1.1.6)
+capistrano-rbenv (2.0.4)
+capistrano3-puma (1.2.1)
+/bin/bash
+development
+deploy
+/home/deploy/work/wallet
+00:00 git:wrapper
+      01 mkdir -p /tmp/wallet/
+    ✔ 01 deploy@104.131.2.210 0.057s
+      Uploading /tmp/wallet/git-ssh.sh 100.0%
+      02 chmod +rx /tmp/wallet/git-ssh.sh
+    ✔ 02 deploy@104.131.2.210 0.007s
+00:00 git:check
+      01 git ls-remote --heads git@github.com:sharn722/wallet.git
+      01 a0e39b7327f856b7f795ccb01d8e93baac6fcd45	refs/heads/master
+    ✔ 01 deploy@104.131.2.210 1.548s
+00:01 deploy:check:directories
+      01 mkdir -p /home/deploy/apps/wallet/shared /home/deploy/apps/wallet/releases
+    ✔ 01 deploy@104.131.2.210 0.014s
+00:01 deploy:check:linked_dirs
+      01 mkdir -p /home/deploy/apps/wallet/shared/bin /home/deploy/apps/wallet/shared/log /home/deploy/apps/wallet/shared/tmp/pids /home/deploy/apps/wallet/shared/tmp/cache /home/deploy/apps/wallet/shared/tmp/sockets /home/deploy/apps/wallet/shared/vendor/bundle /home/deploy/apps/wallet/shared/public/system /home/deploy/apps/wallet/shared/public/assets
+    ✔ 01 deploy@104.131.2.210 0.015s
+00:01 deploy:check:make_linked_dirs
+      01 mkdir -p /home/deploy/apps/wallet/shared/config /home/deploy/apps/wallet/shared
+    ✔ 01 deploy@104.131.2.210 0.163s
+00:01 git:clone
+      The repository mirror is at /home/deploy/apps/wallet/repo
+00:02 git:update
+      01 git remote update --prune
+      01 Fetching origin
+      01 
+      01 remote: Counting objects: 14, done.[K
+      01 
+      01 remote: Compressing objects:  12% (1/8)   [K
+      01 remote: Compressing objects:  25% (2/8)   [K
+      01 remote: Compressing objects:  37% (3/8)   [K
+      01 remote: Compressing objects:  50% (4/8)   [K
+      01 remote: Compressing objects:  62% (5/8)   [K
+      01 remote: Compressing objects:  75% (6/8)   [K
+      01 remote: Compressing objects:  87% (7/8)   [K
+      01 remote: Compressing objects: 100% (8/8)   [K
+      01 remote: Compressing objects: 100% (8/8), done.[K
+      01 
+      01 remote: Total 14 (delta 12), reused 8 (delta 6), pack-reused 0[K
+      01 
+      01 Unpacking objects:   7% (1/14)   
+      01 Unpacking objects:  14% (2/14)   
+      01 Unpacking objects:  21% (3/14)   
+      01 Unpacking objects:  28% (4/14)   
+      01 Unpacking objects:  35% (5/14)   
+      01 Unpacking objects:  42% (6/14)   
+      01 Unpacking objects:  50% (7/14)   
+      01 Unpacking objects:  57% (8/14)   
+      01 Unpacking objects:  64% (9/14)   
+      01 Unpacking objects:  71% (10/14)   
+      01 Unpacking objects:  78% (11/14)   
+      01 Unpacking objects:  85% (12/14)   
+      01 Unpacking objects:  92% (13/14)   
+      01 Unpacking objects: 100% (14/14)   
+      01 Unpacking objects: 100% (14/14), done.
+      01 
+      01 From github.com:sharn722/wallet
+      01 
+      01    d73a769..a0e39b7  master     -> master
+      01 
+    ✔ 01 deploy@104.131.2.210 3.594s
+00:05 git:create_release
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160523083940
+    ✔ 01 deploy@104.131.2.210 0.050s
+      02 git archive master | tar -x -f - -C /home/deploy/apps/wallet/releases/20160523083940
+    ✔ 02 deploy@104.131.2.210 0.027s
+00:05 git:set_current_revision
+      01 echo "a0e39b7327f856b7f795ccb01d8e93baac6fcd45" >> REVISION
+    ✔ 01 deploy@104.131.2.210 0.007s
+00:05 deploy:symlink:linked_files
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160523083940/config /home/deploy/apps/wallet/releases/20160523083940
+    ✔ 01 deploy@104.131.2.210 0.007s
+      02 ln -s /home/deploy/apps/wallet/shared/config/database.yml /home/deploy/apps/wallet/releases/20160523083940/config/database.yml
+    ✔ 02 deploy@104.131.2.210 0.007s
+      03 ln -s /home/deploy/apps/wallet/shared/config/secrets.yml /home/deploy/apps/wallet/releases/20160523083940/config/secrets.yml
+    ✔ 03 deploy@104.131.2.210 0.007s
+      04 ln -s /home/deploy/apps/wallet/shared/config/nginx.conf /home/deploy/apps/wallet/releases/20160523083940/config/nginx.conf
+    ✔ 04 deploy@104.131.2.210 0.007s
+      05 ln -s /home/deploy/apps/wallet/shared/.env /home/deploy/apps/wallet/releases/20160523083940/.env
+    ✔ 05 deploy@104.131.2.210 0.007s
+00:06 deploy:symlink:linked_dirs
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160523083940 /home/deploy/apps/wallet/releases/20160523083940/tmp /home/deploy/apps/wallet/releases/20160523083940/vendor /home/deploy/apps/wallet/releases/20160523083940/public
+    ✔ 01 deploy@104.131.2.210 0.007s
+      02 rm -rf /home/deploy/apps/wallet/releases/20160523083940/bin
+    ✔ 02 deploy@104.131.2.210 0.007s
+      03 ln -s /home/deploy/apps/wallet/shared/bin /home/deploy/apps/wallet/releases/20160523083940/bin
+    ✔ 03 deploy@104.131.2.210 0.057s
+      04 rm -rf /home/deploy/apps/wallet/releases/20160523083940/log
+    ✔ 04 deploy@104.131.2.210 0.007s
+      05 ln -s /home/deploy/apps/wallet/shared/log /home/deploy/apps/wallet/releases/20160523083940/log
+    ✔ 05 deploy@104.131.2.210 0.008s
+      06 ln -s /home/deploy/apps/wallet/shared/tmp/pids /home/deploy/apps/wallet/releases/20160523083940/tmp/pids
+    ✔ 06 deploy@104.131.2.210 0.059s
+      07 ln -s /home/deploy/apps/wallet/shared/tmp/cache /home/deploy/apps/wallet/releases/20160523083940/tmp/cache
+    ✔ 07 deploy@104.131.2.210 0.012s
+      08 ln -s /home/deploy/apps/wallet/shared/tmp/sockets /home/deploy/apps/wallet/releases/20160523083940/tmp/sockets
+    ✔ 08 deploy@104.131.2.210 0.013s
+      09 ln -s /home/deploy/apps/wallet/shared/vendor/bundle /home/deploy/apps/wallet/releases/20160523083940/vendor/bundle
+    ✔ 09 deploy@104.131.2.210 0.057s
+      10 ln -s /home/deploy/apps/wallet/shared/public/system /home/deploy/apps/wallet/releases/20160523083940/public/system
+    ✔ 10 deploy@104.131.2.210 0.007s
+      11 rm -rf /home/deploy/apps/wallet/releases/20160523083940/public/assets
+    ✔ 11 deploy@104.131.2.210 0.059s
+      12 ln -s /home/deploy/apps/wallet/shared/public/assets /home/deploy/apps/wallet/releases/20160523083940/public/assets
+    ✔ 12 deploy@104.131.2.210 0.008s
+00:06 bundler:install
+      01 $HOME/.rbenv/bin/rbenv exec bundle install --path /home/deploy/apps/wallet/shared/bundle --without development test --deployment --quiet
+    ✔ 01 deploy@104.131.2.210 1.532s
+00:08 deploy:assets:precompile
+      01 $HOME/.rbenv/bin/rbenv exec bundle exec rake assets:precompile
+    ✔ 01 deploy@104.131.2.210 6.943s
+00:15 deploy:assets:backup_manifest
+      01 mkdir -p /home/deploy/apps/wallet/releases/20160523083940/assets_manifest_backup
+    ✔ 01 deploy@104.131.2.210 0.030s
+      02 cp /home/deploy/apps/wallet/releases/20160523083940/public/assets/.sprockets-manifest-7296372895591f6b9e209cf49d98de2b.json /home/deploy/apps/wallet/releases/20160523083940/assets_manifest_backup
+    ✔ 02 deploy@104.131.2.210 0.043s
+00:15 deploy:migrate
+      [deploy:migrate] Run `rake db:migrate`
+00:15 deploy:migrating
+      01 $HOME/.rbenv/bin/rbenv exec bundle exec rake db:migrate
+    ✔ 01 deploy@104.131.2.210 7.101s
+Checking out master
+Already on 'master'
+M	wallet_deploy_log
+Your branch is up-to-date with 'origin/master'.
+Checking specs...
+/home/deploy/.rbenv/versions/2.2.4/bin/ruby -I/home/deploy/apps/wallet/shared/bundle/ruby/2.2.0/gems/rspec-core-3.4.4/lib:/home/deploy/apps/wallet/shared/bundle/ruby/2.2.0/gems/rspec-support-3.4.1/lib /home/deploy/apps/wallet/shared/bundle/ruby/2.2.0/gems/rspec-core-3.4.4/exe/rspec --pattern spec/\*\*\{,/\*/\*\*\}/\*_spec.rb
+**.
+
+Pending: (Failures listed here are expected and do not affect your suite's status)
+
+  1) DeployMailer add some examples to (or delete) /home/deploy/work/wallet/spec/mailers/deploy_mailer_spec.rb
+     # Not yet implemented
+     # ./spec/mailers/deploy_mailer_spec.rb:4
+
+  2) Account add some examples to (or delete) /home/deploy/work/wallet/spec/models/account_spec.rb
+     # Not yet implemented
+     # ./spec/models/account_spec.rb:4
+
+Finished in 0.02066 seconds (files took 6.12 seconds to load)
+3 examples, 0 failures, 2 pending
+
+Going back to branch master
+Already on 'master'
+M	wallet_deploy_log
+Your branch is up-to-date with 'origin/master'.
+00:34 deploy:symlink:release
+      01 ln -s /home/deploy/apps/wallet/releases/20160523083940 /home/deploy/apps/wallet/releases/current
+    ✔ 01 deploy@104.131.2.210 0.060s
+      02 mv /home/deploy/apps/wallet/releases/current /home/deploy/apps/wallet
+    ✔ 02 deploy@104.131.2.210 0.056s
+00:34 deploy:cleanup
+      Keeping 5 of 7 deployed releases on 104.131.2.210
+      01 rm -rf /home/deploy/apps/wallet/releases/20160523033225 /home/deploy/apps/wallet/releases/20160523033547
+    ✔ 01 deploy@104.131.2.210 0.065s
+00:34 puma:restart
+      01 $HOME/.rbenv/bin/rbenv exec bundle exec pumactl -S /home/deploy/apps/wallet/shared/tmp/pids/puma.state restart
+      01 Command restart sent success
+      01 
+    ✔ 01 deploy@104.131.2.210 2.215s
+00:36 deploy:log_revision
+      01 echo "Branch master (at a0e39b7327f856b7f795ccb01d8e93baac6fcd45) deployed as release 20160523083940 by deploy" >> /home/deploy/apps/wallet/revisions.log
+    ✔ 01 deploy@104.131.2.210 0.011s
