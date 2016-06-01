@@ -16,4 +16,4 @@ before_script:
 - mysql -e 'create database wallet_test'
 before_install:
 - openssl aes-256-cbc -K $encrypted_c8c5af377526_key -iv $encrypted_c8c5af377526_iv
-  -in deploy-key.enc -out ~\/.ssh/deploy-key -d
+  -in deploy-key.enc -out deploy-key -d
